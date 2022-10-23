@@ -1,5 +1,178 @@
-box1 {
-  color: blue;
-  width: 800px;
-  height: 750px;
+.box1 {
+  position: top 0px;
+  width: 982px;
+  height: 500px;
+  background-image: url(https://i0.wp.com/torinotume.com/wp-content/uploads/2020/12/201208_img_10.jpg?resize=790%2C480&ssl=1);
+  background-size: 100%;
+}
+.box2 {
+  position: relative;
+  top: 67px;
+  width: 1000px;
+  height: 300px;
+
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 130px;
+  text-transform: lowercase;
+
+  color: #ffffff;
+}
+.box3 {
+  position: relative;
+  top: -160px;
+  width: 322px;
+  height: 120px;
+
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 133px;
+
+  text-transform: lowercase;
+
+  color: #ffffff;
+}
+.box4 {
+  position: relative;
+  bottom: 140px;
+  width: 200px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  transform: rotate(-0 0deg);
+}
+.box5 {
+  position: relative;
+  top: -166px;
+  width: 400px;
+  height: -30px;
+  border: 1.5px solid #ffffff;
+  transform: rotate(-0 0deg);
+}
+.box6 {
+  position: absolute;
+  width: 1205px;
+  height: 100px;
+
+  background: rgba(255, 255, 255, 0.64);
+}
+.box7 {
+  position: relative;
+  top: 0px;
+  width: 206px;
+  height: 83px;
+  font-family: "Cedarville Cursive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 57px;
+  text-transform: lowercase;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box8 {
+  position: relative;
+  top: 0px;
+  left: 37px;
+  width: 120px;
+  height: 57px;
+
+  font-family: "Cedarville Cursive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 57px;
+  /* identical to box height */
+
+  text-transform: lowercase;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.box9 {
+  position: relative;
+  top: -55px;
+  left: 300px;
+  width: 600px;
+  height: 10px;
+  font-family: "Cedarville Cursive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 57px;
+  /* identical to box height */
+
+  text-transform: lowercase;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box9:hover .box10 {
+  display: inline;
+}
+.box10 {
+  position: relative;
+  top: 0px;
+  left: -90px;
+  width: 500px;
+  height: 57px;
+  font-family: "Cedarville Cursive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 57px;
+  /* identical to box height */
+  border-radius: 5px;
+  background-color: transparent;
+  text-transform: lowercase;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transform: translateX(5rem);
+  transition: all 1.5s;
+}
+.box9:hover .box11 {
+  display: inline;
+}
+.box11 {
+  position: relative;
+  top: 0px;
+  left: -40px;
+  width: 239px;
+  height: 57px;
+
+  font-family: "Cedarville Cursive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 57px;
+  /* identical to box height */
+  border-radius: 5px;
+  background-color: transparent;
+  text-transform: lowercase;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transform: translateX(5rem);
+  transition: all 1.5s;
 }
